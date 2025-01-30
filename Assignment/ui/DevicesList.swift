@@ -18,6 +18,7 @@ struct DevicesList: View {
             } label: {
                 VStack(alignment: .leading) {
                     AssignmentText(text: device.name)
+                        .foregroundColor(.blue)
                 }
             }
         }
